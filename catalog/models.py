@@ -3,7 +3,7 @@ from django.db import models
 
 class Product(models.Model):
 
-    name = models.CharField(max_length=50, verbose_name = 'Наименование')
+    name = models.CharField(max_length=100, verbose_name = 'Наименование')
     description = models.TextField(verbose_name='Описание')
     image = models.ImageField(verbose_name='Изображение', blank=True, null=True)
     category = models.CharField(max_length=50, verbose_name='Категория')
@@ -18,4 +18,15 @@ class Product(models.Model):
 
         verbose_name = 'Продукт'
         verbose_name_plural = 'Продукты'
+        ordering = ['name']
+
+class Category(models.Model):
+
+    name = models.CharField(max_length=100, verbose_name='Наименование')
+    description = models.TextField(verbose_name='Описание')
+
+    class Meta:
+
+        verbose_name = 'Категория'
+        verbose_name_plural = 'Категории'
         ordering = ['name']
