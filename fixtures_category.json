@@ -1,7 +1,7 @@
 [
     {
         "model": "catalog.category",
-        "pk": 3,
+        "pk": 1,
         "fields": {
             "name": "Молочное",
             "description": "Это категория молочного."
@@ -9,7 +9,7 @@
     },
     {
         "model": "catalog.category",
-        "pk": 4,
+        "pk": 2,
         "fields": {
             "name": "Хлебобулочное",
             "description": "Это категория хлебобулочного."
@@ -17,7 +17,7 @@
     },
     {
         "model": "catalog.category",
-        "pk": 5,
+        "pk": 3,
         "fields": {
             "name": "Овощи",
             "description": "Это категория овощей."
@@ -25,7 +25,7 @@
     },
     {
         "model": "catalog.category",
-        "pk": 6,
+        "pk": 4,
         "fields": {
             "name": "Фрукты",
             "description": "Это категория фруктов."
@@ -33,7 +33,7 @@
     },
     {
         "model": "catalog.category",
-        "pk": 7,
+        "pk": 5,
         "fields": {
             "name": "Мясные изделия",
             "description": "Это категория мясных изделий."
@@ -41,7 +41,7 @@
     },
     {
         "model": "catalog.category",
-        "pk": 8,
+        "pk": 6,
         "fields": {
             "name": "Рыба и морепродукты",
             "description": "Это категория рыбы и морепродуктов."
@@ -49,7 +49,7 @@
     },
     {
         "model": "catalog.category",
-        "pk": 9,
+        "pk": 7,
         "fields": {
             "name": "Напитки",
             "description": "Это категория напитков."
@@ -57,7 +57,7 @@
     },
     {
         "model": "catalog.category",
-        "pk": 10,
+        "pk": 8,
         "fields": {
             "name": "Алкогольные напитки",
             "description": "Это категория алкогольных напитков."
@@ -65,7 +65,7 @@
     },
     {
         "model": "catalog.category",
-        "pk": 11,
+        "pk": 9,
         "fields": {
             "name": "Замороженные продукты",
             "description": "Это категория замороженных продуктов."
@@ -73,7 +73,7 @@
     },
     {
         "model": "catalog.category",
-        "pk": 12,
+        "pk": 10,
         "fields": {
             "name": "Консервы",
             "description": "Это категория консервов."
@@ -81,7 +81,7 @@
     },
     {
         "model": "catalog.category",
-        "pk": 13,
+        "pk": 11,
         "fields": {
             "name": "Снеки",
             "description": "Это категория снеков."
@@ -89,7 +89,7 @@
     },
     {
         "model": "catalog.category",
-        "pk": 14,
+        "pk": 12,
         "fields": {
             "name": "Сладости",
             "description": "Это категория сладостей."
@@ -97,7 +97,7 @@
     },
     {
         "model": "catalog.category",
-        "pk": 15,
+        "pk": 13,
         "fields": {
             "name": "Здоровое питание",
             "description": "Это категория здорового питания."
@@ -105,7 +105,7 @@
     },
     {
         "model": "catalog.category",
-        "pk": 16,
+        "pk": 14,
         "fields": {
             "name": "Детское питание",
             "description": "Это категория детского питания."
@@ -113,7 +113,7 @@
     },
     {
         "model": "catalog.category",
-        "pk": 17,
+        "pk": 15,
         "fields": {
             "name": "Бакалея",
             "description": "Это категория бакалеи."
@@ -121,7 +121,7 @@
     },
     {
         "model": "catalog.category",
-        "pk": 18,
+        "pk": 16,
         "fields": {
             "name": "Специи и приправы",
             "description": "Это категория специй и приправ."
@@ -129,7 +129,7 @@
     },
     {
         "model": "catalog.category",
-        "pk": 19,
+        "pk": 17,
         "fields": {
             "name": "Крупы",
             "description": "Это категория круп."
@@ -137,7 +137,7 @@
     },
     {
         "model": "catalog.category",
-        "pk": 20,
+        "pk": 18,
         "fields": {
             "name": "Макаронные изделия",
             "description": "Это категория макаронных изделий."
@@ -145,7 +145,7 @@
     },
     {
         "model": "catalog.category",
-        "pk": 21,
+        "pk": 19,
         "fields": {
             "name": "Масла и соусы",
             "description": "Это категория масел и соусов."
@@ -153,7 +153,7 @@
     },
     {
         "model": "catalog.category",
-        "pk": 22,
+        "pk": 20,
         "fields": {
             "name": "Чай и кофе",
             "description": "Это категория чая и кофе."
@@ -161,7 +161,7 @@
     },
     {
         "model": "catalog.category",
-        "pk": 23,
+        "pk": 21,
         "fields": {
             "name": "Товары для дома",
             "description": "Это категория товаров для дома."
@@ -169,7 +169,7 @@
     },
     {
         "model": "catalog.category",
-        "pk": 24,
+        "pk": 22,
         "fields": {
             "name": "Косметика и гигиена",
             "description": "Это категория косметики и гигиены."
@@ -177,7 +177,7 @@
     },
     {
         "model": "catalog.category",
-        "pk": 25,
+        "pk": 23,
         "fields": {
             "name": "Бытовая химия",
             "description": "Это категория бытовой химии."
@@ -185,7 +185,7 @@
     },
     {
         "model": "catalog.category",
-        "pk": 26,
+        "pk": 24,
         "fields": {
             "name": "Электроника",
             "description": "Это категория электроники."
@@ -193,7 +193,7 @@
     },
     {
         "model": "catalog.category",
-        "pk": 27,
+        "pk": 25,
         "fields": {
             "name": "Книги",
             "description": "Это категория книг."
