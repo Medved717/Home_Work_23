@@ -3,7 +3,7 @@ from catalog.models import Product, Category
 
 
 class Command(BaseCommand):
-    help = 'Предварительное удаление и добавление продуктов.'
+    help = 'Предварительное удаление и добавление продуктов для тестов.'
 
     def handle(self, *args, **options):
 
@@ -52,3 +52,5 @@ class Command(BaseCommand):
                 self.stdout.write(self.style.SUCCESS(f'Объект: {product} успешно добавлен'))
             else:
                 self.stdout.write(self.style.WARNING(f'Объект: {product} уже в наличии'))
+                # Если я правильно понял условия задания, то мне необходимо сделать так, чтобы удалялись
+                # данные перед добавлением новых продуктов, поэтому второе условие никогда не выполнится.
